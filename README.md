@@ -14,6 +14,7 @@ slider_scale_Mouse (a script to implement a rating scale with mouse click as res
 
 **Functions:**
 
+slideScale
 
 
 
