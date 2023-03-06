@@ -5,7 +5,7 @@ So far the repository contains:
 
 **Scripts:**
 Arousal_detection_task_working_script (working on this atm)
-  
+slider_scale_Mouse (a script to implement a rating scale with mouse click as response)
   
 **Functions:**
 
