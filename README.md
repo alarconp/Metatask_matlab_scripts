@@ -3,12 +3,12 @@ Here I will add the lastest versions of the task's script and functions. Updated
 
 So far the repository contains:
 
-Scripts:
-  Arousal_detection_task_working_script
+**Scripts:**
+Arousal_detection_task_working_script (working on this atm)
   
   
-Functions:
+**Functions:**
 
 
-Other files:
-
+**Other files:**
+Emo_Madrid_index.mat (a table with stimuli parameters)
