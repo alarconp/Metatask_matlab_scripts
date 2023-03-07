@@ -21,3 +21,5 @@ slideScale
 **Other files:**
 
 Emo_Madrid_index.mat (a table with stimuli parameters)
+
+9_SAMs.jpg (an image for the arousal rating)
