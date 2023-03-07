@@ -15,8 +15,8 @@ bgColor   = [128 128 128];
 % Get information about the screen and set general things
 
 screenNumber = max(Screen('Screens'));
-Screen('Preference', 'SuppressAllWarnings',1);
-Screen('Preference', 'SkipSyncTests', 1);
+Screen('Preference', 'SkipSyncTests', 1);    % skips the sync tests
+Screen('Preference', 'VisualDebugLevel', 0); % disables all visual warning
 
 % Creating screen etc.
 [myScreen, rect] = Screen('OpenWindow', screenNumber, bgColor);
