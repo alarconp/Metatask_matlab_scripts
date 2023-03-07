@@ -11,8 +11,7 @@ function [position, RT, answer] = slideScale(screenPointer, question, rect, anch
 %                      Obtained with [myScreen, rect] = Screen('OpenWindow', 0);
 %    anchors        -> Cell containg the two or three text strings of the left (, middle) and right
 %                      end of the scale. Exampe: anchors = {'left', 'middle', 'right'}
-%    image          -> Picture for the rating
-%
+%    
 %   Varargin:
 %    'linelength'     -> An integer specifying the lengths of the ticks in
 %                        pixels. The default is 10.
@@ -94,7 +93,7 @@ function [position, RT, answer] = slideScale(screenPointer, question, rect, anch
 center        = round([rect(3) rect(4)]/2);
 lineLength    = 10;
 width         = 5;
-scalaLength   = 0.99;
+scalaLength   = 0.9;
 scalaPosition = 0.8;
 sliderColor   = [255 255 0];
 scaleColor    = [0 0 0];
