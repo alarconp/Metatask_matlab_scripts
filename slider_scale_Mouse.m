@@ -24,12 +24,12 @@ Screen('Preference', 'VisualDebugLevel', 0); % disables all visual warning
 % Input for slide scale
 question  = 'How aroused were you?';
 %endPoints = {'no at all', 'very much'};
-anchors = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9','10'};
+anchors = {'1', '2', '3', '4', '5', '6', '7', '8', '9'};
 SAM_manequin = imread('9_SAMs.jpg');
-
+scalaLength = 0.855;
 
 % The code below creates as slide scale from 0 to 100 for mouse use with center starting position. Length of scale is 99%. 
-[position, RT, answer] = slideScale(myScreen, question, rect, anchors, 'scalalength', 0.99, 'device', 'mouse', 'startposition', 'center', 'range', 2 ...
+[position, RT, answer] = slideScale(myScreen, question, rect, anchors, scalaLength, 'device', 'mouse', 'startposition', 'center', 'range', 2 ...
     , 'image', SAM_manequin);
 
 % Close window
