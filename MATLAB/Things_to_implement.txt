@@ -1,0 +1,8 @@
+
+
+
+Things to implement:
+
+	- Make the confidence scale start at random positions (this can be changed in the scale function code)
+	- Interstimulus interval random values between 5 and 7s?
+
